@@ -28,7 +28,8 @@
  
  - `composer install -vvv`
  - `php artisan db:create diagnostic`
- - `php artisan migrate` 
+ - `php artisan migrate`
+ - `php artisan db:seed`
  
  ## Ejecutar la aplicacion
  Esto es un API que tiene varias endpoints desarrollados. Sin embargo tambien de desarrollo unas interfaces que interactuan con los endpoints
@@ -40,6 +41,10 @@
  Y podra ver la interface en el navegador a traves de la siguiente url:
  
  `http://localhost:8000`
+ 
+ La primera vista sera el formulario de login. Debe ingresar las siguientes credenciales.
+ - `email: admin@example.com`
+ - `password: admin`
  
  ## Contacto
  Si presenta algun problema con cualquier comando o con la ejecución de la aplicacion puede enviarme un mensaje al correo:
