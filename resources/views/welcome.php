@@ -41,8 +41,8 @@
                 };
 
                 $scope.loginForm = {
-                    email: 'vschumm@example.net',
-                    password: 'admin'
+                    email: '',
+                    password: ''
                 };
 
                 $scope.isLogged = false;
