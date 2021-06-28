@@ -17,7 +17,7 @@ class PatientController extends Controller
      */
     public function index()
     {
-        $registers = Patient::take(500)->orderBy('updated_at')->get();
+        $registers = Patient::with('diagnostics')->take(500)->get();
 
         return response()->json([
             'success' => true,
